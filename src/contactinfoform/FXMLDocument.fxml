@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane id="AnchorPane" maxWidth="243.0" prefHeight="519.0" prefWidth="243.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contactinfoform.FXMLDocumentController">
+    <children>
+            <ImageView fitHeight="378.0" fitWidth="243.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@techguardFlame.jpg" />
+         </image>
+      </ImageView>
+        <Button id="button" fx:id="button" layoutX="55.0" layoutY="480.0" onAction="#handleButtonAction" text="Save" />
+      <Label layoutX="11.0" layoutY="124.0" text="First Name:">
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="168.0" text="Last Name:">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="198.0" text="Company Name:">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="263.0" text="Phone Number:">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="295.0" text="Email:">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="327.0" text="Notes:">
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </Label>
+      <Label layoutX="11.0" layoutY="96.0" text="Conference:">
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </Label>
+      <TextField id="conference" fx:id="conference" layoutX="87.0" layoutY="97.0" prefHeight="25.0" prefWidth="145.0" promptText="Conference" />
+      <TextField id="firstName" fx:id="firstName" layoutX="87.0" layoutY="129.0" prefHeight="25.0" prefWidth="145.0" promptText="First Name" />
+      <TextField id="lastName" fx:id="lastName" layoutX="87.0" layoutY="163.0" prefHeight="25.0" prefWidth="145.0" promptText="Last Name" />
+      <TextField id="companyName" fx:id="companyName" layoutX="21.0" layoutY="222.0" prefHeight="25.0" prefWidth="210.0" promptText="Company Name" />
+      <TextField id="phoneNumber" fx:id="phoneNumber" layoutX="111.0" layoutY="258.0" prefHeight="25.0" prefWidth="119.0" promptText="Contact Phone" />
+      <TextField id="email" fx:id="email" layoutX="68.0" layoutY="292.0" prefHeight="25.0" prefWidth="162.0" promptText="Contact Email" />
+      <TextArea id="noteTextBox" fx:id="noteTextBox" layoutX="21.0" layoutY="349.0" prefHeight="116.0" prefWidth="203.0" promptText="Enter notes about the contact." />
+      <Label id="label" fx:id="label" layoutX="121.0" layoutY="484.0" text="Contact Saved" />
+      <ImageView fitHeight="98.0" fitWidth="243.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TGSTrademarkLogo.png" />
+         </image>
+      </ImageView>
+
+    </children>
+</AnchorPane>
